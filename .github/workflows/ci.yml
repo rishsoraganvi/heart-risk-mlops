@@ -37,7 +37,7 @@ jobs:
           grep "roc_auc\|accuracy\|f1\|recall\|precision" train_output.log
 
       - name: Save mlruns as CI artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: mlruns-${{ github.sha }}
           path: mlruns/
@@ -56,4 +56,3 @@ jobs:
           git add metrics_report.json
           git diff --staged --quiet || git commit -m "ci: update metrics_report.json [skip ci]"
           git push
-          
