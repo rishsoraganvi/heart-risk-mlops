@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Gemini/DSU/Projects/heart-risk-mlops/src/mlruns/758913512984344839/models/m-ba32e23287444415bc86ddffcf3ef687/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+mlflow_version: 3.10.1
+model_id: m-ba32e23287444415bc86ddffcf3ef687
+model_size_bytes: 395420
+model_uuid: m-ba32e23287444415bc86ddffcf3ef687
+prompts: null
+run_id: 97a12bec0681441dbb56e97065844f77
+utc_time_created: '2026-03-08 03:04:40.725776'

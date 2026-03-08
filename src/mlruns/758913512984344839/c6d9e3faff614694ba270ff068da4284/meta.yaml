@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Gemini/DSU/Projects/heart-risk-mlops/src/mlruns/758913512984344839/c6d9e3faff614694ba270ff068da4284/artifacts
+end_time: 1772940103504
+entry_point_name: ''
+experiment_id: '758913512984344839'
+lifecycle_stage: active
+run_id: c6d9e3faff614694ba270ff068da4284
+run_name: calm-penguin-898
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1772940094238
+status: 3
+tags: []
+user_id: DELL

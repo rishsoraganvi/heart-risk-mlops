@@ -1,0 +1,16 @@
+creation_timestamp: 1772939090001
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1772939090001
+model_id: m-ba32e23287444415bc86ddffcf3ef687
+name: heart-risk-model
+run_id: 97a12bec0681441dbb56e97065844f77
+run_link: null
+source: models:/m-ba32e23287444415bc86ddffcf3ef687
+status: READY
+status_message: null
+storage_location: file:///C:/Gemini/DSU/Projects/heart-risk-mlops/src/mlruns/758913512984344839/models/m-ba32e23287444415bc86ddffcf3ef687/artifacts
+user_id: null
+version: 1
+workspace: default
