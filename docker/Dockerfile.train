@@ -1,0 +1,20 @@
+# ── Base image ────────────────────────────────────────────────
+# Slim Python 3.10 — no unnecessary OS packages
+FROM python:3.10-slim
+
+# ── Set working directory inside container ────────────────────
+WORKDIR /app
+
+# ── Install dependencies first (Docker layer caching) ─────────
+# Copy requirements before code — so dependency layer is cached
+# and only rebuilds when requirements.txt changes, not on code changes
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# ── Copy project files ────────────────────────────────────────
+COPY config/ ./config/
+COPY src/ ./src/
+COPY data/ ./data/
+
+# ── Default command ───────────────────────────────────────────
+CMD ["python", "src/train.py"]

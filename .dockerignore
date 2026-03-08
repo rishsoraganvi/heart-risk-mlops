@@ -1,0 +1,8 @@
+heart-risk-mlops/
+__pycache__/
+*.pyc
+*.pyo
+.git/
+notebooks/
+outputs/
+*.png

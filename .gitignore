@@ -1,0 +1,21 @@
+# Virtual environment
+heart-risk-mlops/
+
+# MLflow artifacts (too large for git)
+mlruns/
+
+# Data (raw data should not be in version control)
+data/raw/
+data/processed/
+
+# Outputs
+outputs/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.png
+
+# VS Code
+.vscode/

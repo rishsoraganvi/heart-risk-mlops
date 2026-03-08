@@ -1,0 +1,14 @@
+FROM python:3.10-slim
+
+WORKDIR /app
+
+# Inference needs fewer packages — leaner image
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY config/ ./config/
+COPY src/ ./src/
+COPY data/ ./data/
+COPY mlruns/ ./mlruns/
+
+CMD ["python", "src/batch_infer.py"]
