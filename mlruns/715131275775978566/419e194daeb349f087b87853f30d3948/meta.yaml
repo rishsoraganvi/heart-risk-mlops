@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Gemini/DSU/Projects/heart-risk-mlops/mlruns/715131275775978566/419e194daeb349f087b87853f30d3948/artifacts
+end_time: 1772952845185
+entry_point_name: ''
+experiment_id: '715131275775978566'
+lifecycle_stage: active
+run_id: 419e194daeb349f087b87853f30d3948
+run_name: mercurial-carp-353
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1772952836661
+status: 3
+tags: []
+user_id: DELL

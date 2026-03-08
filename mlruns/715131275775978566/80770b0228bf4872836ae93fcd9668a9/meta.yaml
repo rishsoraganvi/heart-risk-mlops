@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Gemini/DSU/Projects/heart-risk-mlops/mlruns/715131275775978566/80770b0228bf4872836ae93fcd9668a9/artifacts
+end_time: 1772941980336
+entry_point_name: ''
+experiment_id: '715131275775978566'
+lifecycle_stage: active
+run_id: 80770b0228bf4872836ae93fcd9668a9
+run_name: indecisive-skunk-660
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1772941970766
+status: 3
+tags: []
+user_id: DELL

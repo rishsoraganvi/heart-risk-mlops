@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Gemini/DSU/Projects/heart-risk-mlops/mlruns/715131275775978566/b01c7596f017481c9ffc22e236c77b74/artifacts
+end_time: 1772953147175
+entry_point_name: ''
+experiment_id: '715131275775978566'
+lifecycle_stage: active
+run_id: b01c7596f017481c9ffc22e236c77b74
+run_name: nimble-gull-277
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1772953141090
+status: 3
+tags: []
+user_id: DELL

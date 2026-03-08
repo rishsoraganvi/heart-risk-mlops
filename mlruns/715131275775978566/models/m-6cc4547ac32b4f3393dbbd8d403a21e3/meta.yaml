@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Gemini/DSU/Projects/heart-risk-mlops/mlruns/715131275775978566/models/m-6cc4547ac32b4f3393dbbd8d403a21e3/artifacts
+creation_timestamp: 1772953142121
+experiment_id: '715131275775978566'
+last_updated_timestamp: 1772953147037
+model_id: m-6cc4547ac32b4f3393dbbd8d403a21e3
+model_type: null
+name: model
+source_run_id: b01c7596f017481c9ffc22e236c77b74
+status: 2
+status_message: null

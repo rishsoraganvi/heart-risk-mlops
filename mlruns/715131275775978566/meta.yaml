@@ -1,0 +1,7 @@
+artifact_location: file:///C:/Gemini/DSU/Projects/heart-risk-mlops/mlruns/715131275775978566
+creation_time: 1772941970518
+experiment_id: '715131275775978566'
+last_update_time: 1772941970518
+lifecycle_stage: active
+name: heart-risk-classifier
+workspace: default
