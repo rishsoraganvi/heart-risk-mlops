@@ -1,0 +1,18 @@
+{
+  "run_id": "80770b0228bf4872836ae93fcd9668a9",
+  "roc_auc": 0.9437,
+  "accuracy": 0.8852,
+  "f1": 0.8814,
+  "recall": 0.9286,
+  "precision": 0.8387,
+  "params": {
+    "class_weight": "balanced",
+    "max_depth": "10",
+    "min_samples_split": "5",
+    "model_name": "RandomForestClassifier",
+    "n_estimators": "200",
+    "random_state": "42",
+    "test_size": "0.2",
+    "train_rows": "242"
+  }
+}
