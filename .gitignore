@@ -2,7 +2,7 @@
 heart-risk-mlops/
 
 # MLflow artifacts (too large for git)
-#mlruns/
+mlruns/
 
 # Data (raw data should not be in version control)
 data/raw/
