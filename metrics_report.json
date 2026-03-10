@@ -1,12 +1,12 @@
 {
-  "run_id": "e5c907fc3f0342b5a3300f6babbef4b6",
-  "roc_auc": 0.9426,
+  "run_id": "80770b0228bf4872836ae93fcd9668a9",
+  "roc_auc": 0.9437,
   "accuracy": 0.8852,
   "f1": 0.8814,
   "recall": 0.9286,
   "precision": 0.8387,
   "params": {
-    "n_estimators": "150",
+    "n_estimators": "200",
     "model_name": "RandomForestClassifier",
     "test_size": "0.2",
     "max_depth": "10",
