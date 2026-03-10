@@ -43,9 +43,6 @@ jobs:
           path: mlruns/
           retention-days: 30
 
-      - name: Run batch inference
-        run: python src/batch_infer.py
-      
       - name: Write best metrics to repo
         run: python src/report_metrics.py
 
